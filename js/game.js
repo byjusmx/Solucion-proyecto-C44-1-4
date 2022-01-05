@@ -67,8 +67,8 @@ class Game{
                     
                          textSize(25);
                          fill("white");
-                         text("Player 1 :" +allPlayers.player1.score,50,50);
-                        text("Player 2 :" + allPlayers.player2.score, 50, 100);
+                         text("Jugador 1 :" +allPlayers.player1.score,50,50);
+                        text("Jugador 2 :" + allPlayers.player2.score, 50, 100);
                  
                  }
                 
@@ -132,8 +132,8 @@ class Game{
     }
     showRank() {
         swal({
-            title: `Awesome!${"\n"}Rank${"\n"}${player.rank}`,
-            text: "You reached the finish line successfully",
+            title: `¡Impresionante!${"\n"}Posición${"\n"}${player.rank}`,
+            text: "Cruzaste la línea de meta con éxito",
             imageUrl:
               "https://raw.githubusercontent.com/vishalgaddam873/p5-multiplayer-car-race-game/master/assets/cup.png",
             imageSize: "100x100",
